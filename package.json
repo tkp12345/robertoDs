@@ -1,6 +1,7 @@
 {
-  "name": "roberto_ds",
-  "private": true,
+  "name": "roberto-sexy-ds",
+  "description": "Design system for roberto",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
