@@ -3,7 +3,6 @@ import {useState} from "react";
 
 interface TagButtonListProps<T extends string>{
     tags : T[];
-
     onTagClick: (tag: T)=>void
 }
 

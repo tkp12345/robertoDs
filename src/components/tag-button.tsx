@@ -15,6 +15,8 @@ export const TagButton = ({children,isChecked,onClick}:TagButtonProps) => {
                 px-[10px]
                 h-[33px]
                 text-sm
+                flex
+                items-center
                 font-medium rounded-tag-button border border-white ${checkedButton}`}>
             {children}
         </button>

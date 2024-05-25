@@ -9,14 +9,16 @@ const meta = {
         layout:"centered",
     },
     tags:["autodocs"],
+    //props에 대한 정보 정의
     argTypes:{
         tags:{
-            control:"array",
+            Control:"array",
             description:"테그 리스트",
             defaultValue:['태그1','태그2','태그3']
         },
         onTagClick:{action:"clicked",description:"클릭 이벤트 "}
     },
+    //스토리 초기 상태를 설정 및 시뮬레이터
     args:{
         onTagClick: fn(),
     },

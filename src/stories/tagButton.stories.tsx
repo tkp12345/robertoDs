@@ -10,7 +10,7 @@ const meta = {
     },
     tags:["autodocs"],
     argTypes:{
-        value:{control:"text",description:"value",defaultValue:""},
+        children:{control:"text",description:"value",defaultValue:""},
         isChecked:{control:"boolean",description:"checked",defaultValue:false},
         onClick:{ action: "click" , description:"click event"}
     },
@@ -26,7 +26,7 @@ type Story = StoryObj<typeof  meta>
 
 export const Default : Story = {
     args : {
-        value: "text",
+        children: "text",
         isChecked:false,
     }
 }
