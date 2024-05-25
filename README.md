@@ -12,5 +12,5 @@
 You can install this library from npm by running:
 
 ```sh
-npm install ...
+npm i roberto-sexy-ds
 ```

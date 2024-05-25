@@ -4,6 +4,13 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
+  "files": [
+    "src/components"
+  ],
+  "main": "src/components/index.tsx",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
